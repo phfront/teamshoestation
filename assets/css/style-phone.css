@@ -1,0 +1,234 @@
+@font-face {
+  font-family: teamfont;
+  /* src: url(../font/Roboto/Roboto-Regular.ttf); */
+  src: url(../font/NeutrafaceTextFont/NeutraText-Book.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: teamfont;
+}
+
+:root {
+  --ts-header-height: 70px;
+  --ts-member-card-height: 300px;
+
+  --ts-primary-color: whitesmoke;
+  --ts-secondary-color: #22222a;
+
+  --ts-secondary-color-light: #4d4d50;
+}
+
+body {
+  background-color: var(--ts-primary-color);
+}
+
+/* HEADER */
+#ts-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--ts-header-height);
+  padding: 10px;
+  background-color: var(--ts-primary-color);
+}
+
+#ts-header img {
+  width: auto;
+  height: 90%;
+}
+
+#ts-header h1 {
+  color: var(--ts-secondary-color);
+  margin-left: 20px;
+  font-size: 25px;
+}
+/* HEADER */
+
+/* TEAM */
+.ts-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 30px;
+  padding: 0px 15px;
+  color: var(--ts-secondary-color);
+}
+
+.ts-team-image {
+  width: 100%;
+  height: 200px;
+}
+
+.ts-team h2 {
+  margin: 30px 0px 10px;
+}
+
+.ts-team p {
+  text-align: center;
+}
+/* TEAM */
+
+/* MAIN MEMBERS */
+#ts-main-members {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+}
+/* MAIN MEMBERS */
+
+/* MEMBER CARD */
+.ts-member-card-separator {
+  margin: 20px 15px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.ts-member-card-separator div {
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--ts-secondary-color);
+}
+
+.ts-member-card-separator img {
+  margin: 0px 10px;
+  width: auto;
+  height: 20px;
+}
+
+.ts-member-card {
+  background: var(--ts-secondary-color);
+  height: var(--ts-member-card-height);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.ts-member-card-right {
+  box-shadow: -10px 0px 12px -12px #22222a;
+}
+
+.ts-member-card-left {
+  box-shadow: 10px 0px 12px -12px #22222a;
+}
+
+.ts-member-card-cut {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.ts-member-card-right .ts-member-card-cut {
+  right: 15px;
+  border-width: var(--ts-member-card-height) 100px 0 0;
+  border-color: transparent var(--ts-primary-color) var(--ts-primary-color)
+    var(--ts-primary-color);
+}
+
+.ts-member-card-left .ts-member-card-cut {
+  left: 15px;
+  border-width: 0 100px var(--ts-member-card-height) 0;
+  border-color: var(--ts-primary-color) transparent var(--ts-primary-color)
+    var(--ts-primary-color);
+}
+
+.ts-member-card-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px 20px;
+  color: var(--ts-primary-color);
+}
+
+.ts-member-card-left .ts-member-card-header {
+  justify-content: flex-end;
+}
+
+.ts-member-card-subtitle {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  align-self: center;
+  color: var(--ts-primary-color);
+}
+
+.ts-member-card-right .ts-member-card-subtitle {
+  padding-left: 20px;
+}
+
+.ts-member-card-left .ts-member-card-subtitle {
+  padding-right: 20px;
+  align-items: flex-end;
+}
+
+.ts-member-card-photo {
+  width: auto;
+  height: calc(var(--ts-member-card-height) / 1.5);
+  justify-self: flex-end;
+}
+/* MEMBER CARD */
+
+/* MEMBERS */
+#members {
+  margin: 15px;
+}
+
+.members-container {
+  padding: 15px;
+  background-color: var(--ts-secondary-color-light);
+  color: var(--ts-primary-color);
+  box-shadow: -3px 5px 10px 0 var(--ts-secondary-color-light);
+  margin-bottom: 20px;
+}
+
+.members-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.members-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member {
+  width: 60px;
+  height: 60px;
+  margin: 0px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.member-active img {
+  border: 3px solid var(--ts-secondary-color);
+}
+
+.member-selected {
+  display: flex;
+  justify-content: center;
+}
+
+/* .member-selected .ts-member-card-right .ts-member-card-cut {
+  right: 30px;
+}
+
+.member-selected .ts-member-card-left .ts-member-card-cut {
+  left: 30px;
+} */
+/* MEMBERS */

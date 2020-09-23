@@ -1,0 +1,125 @@
+{
+  "mainMembers": [
+    {
+      "id": 1,
+      "name": "Gustavo Nakamura",
+      "image": "assets/images/team/gustavo-nakamura.jpg",
+      "titles": [
+        { "text": "Corredor Profissional" },
+        { "text": "Ex-Atleta Olímpico" }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Gustavo Nakamura",
+      "image": "assets/images/team/gustavo-nakamura.jpg",
+      "titles": [
+        { "text": "Corredor Profissional" },
+        { "text": "Ex-Atleta Olímpico" }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Gustavo Nakamura",
+      "image": "assets/images/team/gustavo-nakamura.jpg",
+      "titles": [
+        { "text": "Corredor Profissional" },
+        { "text": "Ex-Atleta Olímpico" }
+      ]
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Marcos",
+      "avatar": "https://bolavip.com/__export/1582911677502/sites/bolavip/img/2020/02/28/whatsapp_image_2020-02-28_at_13_11_19_crop1582911676959.jpeg_423682103.jpeg",
+      "image": "https://f.i.uol.com.br/fotografia/2011/12/02/104649-970x600-1.jpeg",
+      "titles": [{ "text": "Goleiro" }, { "text": "Ex-Atleta do Palmeiras" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    },
+    {
+      "id": 2,
+      "name": "Deadpool",
+      "avatar": "https://avatarfiles.alphacoders.com/148/148009.jpg",
+      "image": "https://assets.papelpop.com/wp-content/uploads/2020/07/deadpool.jpg",
+      "titles": [{ "text": "Mercenario" }, { "text": "Tagarela" }]
+    }
+  ]
+}

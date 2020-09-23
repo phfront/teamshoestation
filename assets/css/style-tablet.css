@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+  :root {
+    --ts-member-card-height: 400px;
+  }
+
+  /* TEAM */
+  .ts-team {
+    padding: 0px 70px;
+  }
+
+  .ts-team-image {
+    width: 100%;
+    height: 300px;
+  }
+  /* TEAM */
+
+  /* MAIN MEMBERS */
+  #ts-main-members {
+    padding: 70px;
+  }
+  /* MAIN MEMBERS */
+
+  /* MEMBER CARD */
+  .ts-member-card {
+    height: var(--ts-member-card-height);
+  }
+
+  .ts-member-card-right .ts-member-card-cut {
+    right: 70px;
+  }
+
+  .ts-member-card-left .ts-member-card-cut {
+    left: 70px;
+  }
+
+  .ts-member-card-photo {
+    height: calc(var(--ts-member-card-height) / 1.3);
+  }
+  /* MEMBER CARD */
+
+  /* MEMBERS */
+  #members {
+    margin: 70px;
+  }
+  /* MEMBERS */
+}

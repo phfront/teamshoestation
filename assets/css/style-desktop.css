@@ -1,0 +1,75 @@
+@media screen and (min-width: 1000px) {
+  :root {
+    --ts-member-card-height: 400px;
+    --ts-member-card-width: 400px;
+  }
+
+  /* TEAM */
+  .ts-team-image {
+    width: 750px;
+    height: 300px;
+  }
+  /* TEAM */
+
+  /* MAIN MEMBERS */
+  #ts-main-members {
+    padding: 70px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* MAIN MEMBERS */
+
+  /* MEMBER CARD */
+  .ts-member-card {
+    width: var(--ts-member-card-width);
+    height: var(--ts-member-card-height);
+    margin: 0 5px;
+    margin-bottom: 10px;
+  }
+
+  .ts-member-card-right .ts-member-card-cut,
+  .ts-member-card-left .ts-member-card-cut {
+    left: inherit;
+    right: inherit;
+    margin-top: calc(var(--ts-member-card-height) - 100px);
+    margin-left: calc(var(--ts-member-card-width) - 100px);
+    border-width: 100px 100px 0 0;
+    border-color: transparent var(--ts-primary-color) var(--ts-primary-color)
+      var(--ts-primary-color);
+  }
+
+  .ts-member-card-photo {
+    height: calc(var(--ts-member-card-height) / 1.3);
+  }
+
+  .ts-member-card-right,
+  .ts-member-card-left {
+    box-shadow: -10px -10px 12px -12px #22222a;
+  }
+
+  /* MEMBER CARD */
+
+  /* MEMBERS */
+  #members {
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .members-container,
+  .members-selected {
+    width: 750px;
+  }
+
+  .ts-member-card-left .ts-member-card-header {
+    justify-content: flex-start;
+  }
+
+  .ts-member-card-left .ts-member-card-subtitle {
+    padding-left: 20px;
+    align-items: flex-start;
+  }
+  /* MEMBERS */
+}
